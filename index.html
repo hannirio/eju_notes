@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EJU Science &amp; Mathematics Complete Solutions</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --math: #2563eb;
+      --physics: #0d9488;
+      --chemistry: #7c3aed;
+      --shadow: 0 4px 20px rgba(15, 23, 42, 0.06);
+      --shadow-hover: 0 12px 28px rgba(15, 23, 42, 0.12);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans CJK SC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      color: #ffffff;
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+    }
+    header .badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: rgba(255, 255, 255, 0.14);
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: clamp(1.75rem, 3.6vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+    header p {
+      max-width: 640px;
+      margin: 0 auto;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+    main {
+      flex: 1;
+      max-width: 1040px;
+      width: 100%;
+      margin: -2rem auto 3rem;
+      padding: 0 1.25rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.75rem;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--card-accent, var(--math));
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-hover);
+      border-color: var(--card-accent, var(--math));
+    }
+    .card.math { --card-accent: var(--math); }
+    .card.physics { --card-accent: var(--physics); }
+    .card.chemistry { --card-accent: var(--chemistry); }
+    .card-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--card-accent);
+      margin-bottom: 0.5rem;
+    }
+    .card h2 {
+      font-size: 1.35rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      color: var(--muted);
+      font-size: 0.94rem;
+      margin-bottom: 1.25rem;
+      flex: 1;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .pill {
+      font-size: 0.78rem;
+      background: #f1f5f9;
+      color: #334155;
+      padding: 0.22rem 0.6rem;
+      border-radius: 6px;
+    }
+    .cta {
+      font-weight: 600;
+      font-size: 0.92rem;
+      color: var(--card-accent);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding: 1.5rem 1rem 2.5rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">EJU Study Archive</div>
+    <h1>EJU Textbook Complete Solutions</h1>
+    <p>Bilingual Japanese-Chinese lecture notes, step-by-step problem solutions, KaTeX formulas, and inline SVG diagrams for EJU Mathematics, Physics, and Chemistry.</p>
+  </header>
+
+  <main>
+    <div class="grid">
+      <a class="card math" href="eju_math_solutions.html">
+        <div class="card-tag">Mathematics &middot; Course 2</div>
+        <h2>EJU Mathematics</h2>
+        <p>Complete textbook solutions covering Algebra, Number Theory, Functions, Trigonometry, Analytic Geometry, Vectors, Complex Numbers, Sequences, and Calculus.</p>
+        <div class="meta">
+          <span class="pill">465 Pages</span>
+          <span class="pill">52 Note Units</span>
+          <span class="pill">Glossary + Errata</span>
+        </div>
+        <span class="cta">Open Mathematics Solutions &rarr;</span>
+      </a>
+
+      <a class="card physics" href="eju_physics_solutions.html">
+        <div class="card-tag">Science &middot; Physics</div>
+        <h2>EJU Physics</h2>
+        <p>Complete textbook solutions covering Mechanics, Thermodynamics, Waves &amp; Optics, Electromagnetism, and Atomic Physics with vector diagrams.</p>
+        <div class="meta">
+          <span class="pill">115 Pages</span>
+          <span class="pill">8 Note Units</span>
+          <span class="pill">Glossary + Errata</span>
+        </div>
+        <span class="cta">Open Physics Solutions &rarr;</span>
+      </a>
+
+      <a class="card chemistry" href="eju_chemistry_solutions.html">
+        <div class="card-tag">Science &middot; Chemistry</div>
+        <h2>EJU Chemistry</h2>
+        <p>Complete textbook solutions covering Theoretical Chemistry, Inorganic Chemistry, and Organic Chemistry with mhchem equations and reaction diagrams.</p>
+        <div class="meta">
+          <span class="pill">187 Pages</span>
+          <span class="pill">13 Note Units</span>
+          <span class="pill">Glossary + Errata</span>
+        </div>
+        <span class="cta">Open Chemistry Solutions &rarr;</span>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    EJU Complete Solutions Portal &middot; Math, Physics &amp; Chemistry
+  </footer>
+</body>
+</html>

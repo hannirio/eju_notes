@@ -1,0 +1,577 @@
+{
+  "math": {
+    "static": {
+      "file": "eju_math_solutions.html",
+      "size_bytes": 3852863,
+      "latex_static": {
+        "unclosed_dollar_count": 0,
+        "unclosed_dollar_samples": [],
+        "raw_latex_or_chem_garble_count": 0,
+        "raw_latex_or_chem_garble_samples": []
+      },
+      "svg_static": {
+        "open_tags": 278,
+        "close_tags": 278,
+        "tag_balanced": true,
+        "parsed_svg_count": 278,
+        "missing_viewbox_count": 0,
+        "missing_viewbox_samples": []
+      },
+      "modules": {
+        "total_problems_detected": 828,
+        "complete_problems": 828,
+        "incomplete_problems_count": 0,
+        "missing_breakdown": {},
+        "incomplete_samples": [],
+        "lazy_problems_count": 0,
+        "lazy_samples": [],
+        "hiragana_reading_annotations": 39,
+        "ruby_tag_count": 0
+      },
+      "anchors": {
+        "total_ids": 1452,
+        "duplicate_ids_count": 0,
+        "duplicate_ids_samples": [],
+        "sidebar_hash_links_total": 691,
+        "dead_links_count": 0,
+        "dead_links_samples": []
+      }
+    },
+    "playwright": {
+      "console_errors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ],
+      "failed_requests": [],
+      "katex": {
+        "katex_rendered_count": 27442,
+        "katex_error_count": 0,
+        "katex_error_samples": [],
+        "unrendered_text_nodes_count": 0,
+        "unrendered_samples": []
+      },
+      "svg_runtime": {},
+      "styles": {
+        "body": {
+          "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", \"Hiragino Sans\", \"PingFang SC\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "28px",
+          "color": "rgb(30, 41, 59)",
+          "backgroundColor": "rgb(248, 250, 252)"
+        },
+        "sidebar": {
+          "width": "320px",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(30, 41, 59)",
+          "borderRightColor": "rgb(226, 232, 240)"
+        },
+        "main": {
+          "maxWidth": "1120px",
+          "paddingLeft": "36px",
+          "paddingRight": "36px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "h1": {
+          "fontSize": "28px",
+          "color": "rgb(30, 41, 59)",
+          "fontWeight": "700"
+        },
+        "h2": {
+          "fontSize": "15px",
+          "color": "rgb(30, 41, 59)",
+          "borderBottomColor": "rgb(30, 41, 59)"
+        },
+        "h3": {
+          "fontSize": "17.92px",
+          "color": "rgb(37, 99, 235)"
+        },
+        "blockquote": {
+          "backgroundColor": "rgb(239, 246, 255)",
+          "borderLeftColor": "rgb(59, 130, 246)",
+          "borderLeftWidth": "4px",
+          "paddingLeft": "16px",
+          "borderRadius": "0px 8px 8px 0px"
+        },
+        "code": {
+          "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+          "fontSize": "13.3px",
+          "backgroundColor": "rgb(241, 245, 249)",
+          "color": "rgb(190, 18, 60)"
+        },
+        "table_th": {
+          "backgroundColor": "rgb(241, 245, 249)",
+          "color": "rgb(30, 41, 59)",
+          "fontSize": "14px"
+        },
+        "has_theme_toggle": true,
+        "has_font_controls": true,
+        "has_toc_search": true
+      },
+      "responsive": {
+        "desktop_1440": {
+          "viewport": {
+            "w": 1440,
+            "h": 900
+          },
+          "doc_scroll_width": 1440,
+          "doc_horizontal_overflow": false,
+          "total_svgs": 5854,
+          "zero_size_svgs": 2248,
+          "overflow_svgs_count": 0,
+          "overflow_svgs_samples": [],
+          "overlap_svgs_count": 4,
+          "overlap_svgs_samples": [
+            {
+              "svg_index": 1200,
+              "overlap_pairs_count": 1,
+              "sample_pairs": [
+                [
+                  "3",
+                  "[1] x²/16 + y²/9 = 1",
+                  "85%"
+                ]
+              ]
+            },
+            {
+              "svg_index": 1211,
+              "overlap_pairs_count": 1,
+              "sample_pairs": [
+                [
+                  "√34",
+                  "[2] x²/25 - y²/9 = -1",
+                  "45%"
+                ]
+              ]
+            },
+            {
+              "svg_index": 5732,
+              "overlap_pairs_count": 2,
+              "sample_pairs": [
+                [
+                  "C",
+                  "按 A → B → C → D → E → F 顺序涂色：",
+                  "52%"
+                ],
+                [
+                  "E",
+                  "3. C（≠A, B）：A, B 必异色 ⇒ 2 通り",
+                  "48%"
+                ]
+              ]
+            },
+            {
+              "svg_index": 5770,
+              "overlap_pairs_count": 4,
+              "sample_pairs": [
+                [
+                  "5",
+                  "P(A∩B)=3/36 = (12/36)(9/36) → ",
+                  "93%"
+                ],
+                [
+                  "6",
+                  "P(A∩B)=3/36 = (12/36)(9/36) → ",
+                  "93%"
+                ],
+                [
+                  "5",
+                  "P(A∩C)=11/36 ≠ (1/3)(17/18)=17",
+                  "93%"
+                ]
+              ]
+            }
+          ],
+          "sidebar_visible_width": 320,
+          "sidebar_transform": "none",
+          "sidebar_display": "flex"
+        },
+        "ipad_768": {
+          "viewport": {
+            "w": 768,
+            "h": 1024
+          },
+          "doc_scroll_width": 768,
+          "doc_horizontal_overflow": false,
+          "total_svgs": 5854,
+          "zero_size_svgs": 2367,
+          "overflow_svgs_count": 0,
+          "overflow_svgs_samples": [],
+          "overlap_svgs_count": 0,
+          "overlap_svgs_samples": [],
+          "sidebar_visible_width": 320,
+          "sidebar_transform": "matrix(1, 0, 0, 1, -320, 0)",
+          "sidebar_display": "flex"
+        },
+        "mobile_390": {
+          "viewport": {
+            "w": 390,
+            "h": 844
+          },
+          "doc_scroll_width": 545,
+          "doc_horizontal_overflow": true,
+          "total_svgs": 5854,
+          "zero_size_svgs": 2475,
+          "overflow_svgs_count": 0,
+          "overflow_svgs_samples": [],
+          "overlap_svgs_count": 0,
+          "overlap_svgs_samples": [],
+          "sidebar_visible_width": 320,
+          "sidebar_transform": "matrix(1, 0, 0, 1, -320, 0)",
+          "sidebar_display": "flex"
+        }
+      },
+      "toc_runtime": {
+        "found_sidebar": true,
+        "total_links": 691,
+        "resolved_ok": 691,
+        "broken_count": 0,
+        "broken_samples": []
+      }
+    }
+  },
+  "physics": {
+    "static": {
+      "file": "eju_physics_solutions.html",
+      "size_bytes": 699710,
+      "latex_static": {
+        "unclosed_dollar_count": 0,
+        "unclosed_dollar_samples": [],
+        "raw_latex_or_chem_garble_count": 0,
+        "raw_latex_or_chem_garble_samples": []
+      },
+      "svg_static": {
+        "open_tags": 57,
+        "close_tags": 57,
+        "tag_balanced": true,
+        "parsed_svg_count": 57,
+        "missing_viewbox_count": 0,
+        "missing_viewbox_samples": []
+      },
+      "modules": {
+        "total_problems_detected": 26,
+        "complete_problems": 26,
+        "incomplete_problems_count": 0,
+        "missing_breakdown": {},
+        "incomplete_samples": [],
+        "lazy_problems_count": 0,
+        "lazy_samples": [],
+        "hiragana_reading_annotations": 9,
+        "ruby_tag_count": 0
+      },
+      "anchors": {
+        "total_ids": 653,
+        "duplicate_ids_count": 0,
+        "duplicate_ids_samples": [],
+        "sidebar_hash_links_total": 98,
+        "dead_links_count": 0,
+        "dead_links_samples": []
+      }
+    },
+    "playwright": {
+      "console_errors": [],
+      "failed_requests": [],
+      "katex": {
+        "katex_rendered_count": 3685,
+        "katex_error_count": 0,
+        "katex_error_samples": [],
+        "unrendered_text_nodes_count": 0,
+        "unrendered_samples": []
+      },
+      "svg_runtime": {},
+      "styles": {
+        "body": {
+          "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", \"Hiragino Sans\", \"PingFang SC\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "28px",
+          "color": "rgb(30, 41, 59)",
+          "backgroundColor": "rgb(248, 250, 252)"
+        },
+        "sidebar": {
+          "width": "320px",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(30, 41, 59)",
+          "borderRightColor": "rgb(226, 232, 240)"
+        },
+        "main": {
+          "maxWidth": "1120px",
+          "paddingLeft": "36px",
+          "paddingRight": "36px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "h1": {
+          "fontSize": "24px",
+          "color": "rgb(15, 23, 42)",
+          "fontWeight": "700"
+        },
+        "h2": {
+          "fontSize": "15px",
+          "color": "rgb(30, 41, 59)",
+          "borderBottomColor": "rgb(30, 41, 59)"
+        },
+        "h3": {
+          "fontSize": "17.92px",
+          "color": "rgb(37, 99, 235)"
+        },
+        "blockquote": {
+          "backgroundColor": "rgb(239, 246, 255)",
+          "borderLeftColor": "rgb(59, 130, 246)",
+          "borderLeftWidth": "4px",
+          "paddingLeft": "16px",
+          "borderRadius": "0px 8px 8px 0px"
+        },
+        "code": {
+          "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+          "fontSize": "12.25px",
+          "backgroundColor": "rgb(241, 245, 249)",
+          "color": "rgb(190, 18, 60)"
+        },
+        "table_th": {
+          "backgroundColor": "rgb(241, 245, 249)",
+          "color": "rgb(30, 41, 59)",
+          "fontSize": "14px"
+        },
+        "has_theme_toggle": true,
+        "has_font_controls": true,
+        "has_toc_search": true
+      },
+      "responsive": {
+        "desktop_1440": {
+          "viewport": {
+            "w": 1440,
+            "h": 900
+          },
+          "doc_scroll_width": 1440,
+          "doc_horizontal_overflow": false,
+          "total_svgs": 317,
+          "zero_size_svgs": 92,
+          "overflow_svgs_count": 0,
+          "overflow_svgs_samples": [],
+          "overlap_svgs_count": 0,
+          "overlap_svgs_samples": [],
+          "sidebar_visible_width": 320,
+          "sidebar_transform": "none",
+          "sidebar_display": "block"
+        },
+        "ipad_768": {
+          "viewport": {
+            "w": 768,
+            "h": 1024
+          },
+          "doc_scroll_width": 768,
+          "doc_horizontal_overflow": false,
+          "total_svgs": 317,
+          "zero_size_svgs": 92,
+          "overflow_svgs_count": 0,
+          "overflow_svgs_samples": [],
+          "overlap_svgs_count": 0,
+          "overlap_svgs_samples": [],
+          "sidebar_visible_width": 320,
+          "sidebar_transform": "matrix(1, 0, 0, 1, -320, 0)",
+          "sidebar_display": "block"
+        },
+        "mobile_390": {
+          "viewport": {
+            "w": 390,
+            "h": 844
+          },
+          "doc_scroll_width": 402,
+          "doc_horizontal_overflow": true,
+          "total_svgs": 317,
+          "zero_size_svgs": 92,
+          "overflow_svgs_count": 0,
+          "overflow_svgs_samples": [],
+          "overlap_svgs_count": 0,
+          "overlap_svgs_samples": [],
+          "sidebar_visible_width": 320,
+          "sidebar_transform": "matrix(1, 0, 0, 1, -320, 0)",
+          "sidebar_display": "block"
+        }
+      },
+      "toc_runtime": {
+        "found_sidebar": true,
+        "total_links": 98,
+        "resolved_ok": 98,
+        "broken_count": 0,
+        "broken_samples": []
+      }
+    }
+  },
+  "chemistry": {
+    "static": {
+      "file": "eju_chemistry_solutions.html",
+      "size_bytes": 1079474,
+      "latex_static": {
+        "unclosed_dollar_count": 0,
+        "unclosed_dollar_samples": [],
+        "raw_latex_or_chem_garble_count": 0,
+        "raw_latex_or_chem_garble_samples": []
+      },
+      "svg_static": {
+        "open_tags": 69,
+        "close_tags": 69,
+        "tag_balanced": true,
+        "parsed_svg_count": 69,
+        "missing_viewbox_count": 0,
+        "missing_viewbox_samples": []
+      },
+      "modules": {
+        "total_problems_detected": 36,
+        "complete_problems": 36,
+        "incomplete_problems_count": 0,
+        "missing_breakdown": {},
+        "incomplete_samples": [],
+        "lazy_problems_count": 0,
+        "lazy_samples": [],
+        "hiragana_reading_annotations": 144,
+        "ruby_tag_count": 0
+      },
+      "anchors": {
+        "total_ids": 599,
+        "duplicate_ids_count": 0,
+        "duplicate_ids_samples": [],
+        "sidebar_hash_links_total": 245,
+        "dead_links_count": 0,
+        "dead_links_samples": []
+      }
+    },
+    "playwright": {
+      "console_errors": [],
+      "failed_requests": [],
+      "katex": {
+        "katex_rendered_count": 5234,
+        "katex_error_count": 0,
+        "katex_error_samples": [],
+        "unrendered_text_nodes_count": 0,
+        "unrendered_samples": []
+      },
+      "svg_runtime": {},
+      "styles": {
+        "body": {
+          "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", \"Hiragino Sans\", \"PingFang SC\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif",
+          "fontSize": "16px",
+          "lineHeight": "28px",
+          "color": "rgb(30, 41, 59)",
+          "backgroundColor": "rgb(248, 250, 252)"
+        },
+        "sidebar": {
+          "width": "320px",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(30, 41, 59)",
+          "borderRightColor": "rgb(226, 232, 240)"
+        },
+        "main": {
+          "maxWidth": "1120px",
+          "paddingLeft": "36px",
+          "paddingRight": "36px",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "h1": {
+          "fontSize": "15px",
+          "color": "rgb(30, 41, 59)",
+          "fontWeight": "700"
+        },
+        "h2": {
+          "fontSize": "20px",
+          "color": "rgb(30, 58, 138)",
+          "borderBottomColor": "rgb(226, 232, 240)"
+        },
+        "h3": {
+          "fontSize": "17.92px",
+          "color": "rgb(37, 99, 235)"
+        },
+        "blockquote": {
+          "backgroundColor": "rgb(239, 246, 255)",
+          "borderLeftColor": "rgb(59, 130, 246)",
+          "borderLeftWidth": "4px",
+          "paddingLeft": "16px",
+          "borderRadius": "0px 8px 8px 0px"
+        },
+        "code": {
+          "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+          "fontSize": "14px",
+          "backgroundColor": "rgb(241, 245, 249)",
+          "color": "rgb(190, 18, 60)"
+        },
+        "table_th": {
+          "backgroundColor": "rgb(241, 245, 249)",
+          "color": "rgb(30, 41, 59)",
+          "fontSize": "14px"
+        },
+        "has_theme_toggle": true,
+        "has_font_controls": true,
+        "has_toc_search": true
+      },
+      "responsive": {
+        "desktop_1440": {
+          "viewport": {
+            "w": 1440,
+            "h": 900
+          },
+          "doc_scroll_width": 1440,
+          "doc_horizontal_overflow": false,
+          "total_svgs": 205,
+          "zero_size_svgs": 8,
+          "overflow_svgs_count": 0,
+          "overflow_svgs_samples": [],
+          "overlap_svgs_count": 1,
+          "overlap_svgs_samples": [
+            {
+              "svg_index": 12,
+              "overlap_pairs_count": 1,
+              "sample_pairs": [
+                [
+                  "三重点",
+                  "液体",
+                  "25%"
+                ]
+              ]
+            }
+          ],
+          "sidebar_visible_width": 320,
+          "sidebar_transform": "none",
+          "sidebar_display": "flex"
+        },
+        "ipad_768": {
+          "viewport": {
+            "w": 768,
+            "h": 1024
+          },
+          "doc_scroll_width": 768,
+          "doc_horizontal_overflow": false,
+          "total_svgs": 205,
+          "zero_size_svgs": 8,
+          "overflow_svgs_count": 0,
+          "overflow_svgs_samples": [],
+          "overlap_svgs_count": 0,
+          "overlap_svgs_samples": [],
+          "sidebar_visible_width": 320,
+          "sidebar_transform": "matrix(1, 0, 0, 1, -320, 0)",
+          "sidebar_display": "flex"
+        },
+        "mobile_390": {
+          "viewport": {
+            "w": 390,
+            "h": 844
+          },
+          "doc_scroll_width": 703,
+          "doc_horizontal_overflow": true,
+          "total_svgs": 205,
+          "zero_size_svgs": 14,
+          "overflow_svgs_count": 0,
+          "overflow_svgs_samples": [],
+          "overlap_svgs_count": 0,
+          "overlap_svgs_samples": [],
+          "sidebar_visible_width": 320,
+          "sidebar_transform": "matrix(1, 0, 0, 1, -320, 0)",
+          "sidebar_display": "flex"
+        }
+      },
+      "toc_runtime": {
+        "found_sidebar": true,
+        "total_links": 245,
+        "resolved_ok": 245,
+        "broken_count": 0,
+        "broken_samples": []
+      }
+    }
+  }
+}

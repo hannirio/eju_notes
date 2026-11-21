@@ -1,0 +1,15 @@
+# Raw PDF textbooks (exceed GitHub file size limits)
+raw_eju_*.pdf
+*.pdf
+
+# Intermediate OCR / chunk / reference image directories
+work_math/
+work_chemistry/
+work_physics/
+
+# macOS & Python artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
