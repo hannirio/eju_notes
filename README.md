@@ -1,2 +1,2 @@
-# eju_chemistry
-eju_chemistry_notes
+# eju_notes
+chemistry & physics & math
